@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+nav{position: fixed;width:100%;padding:10px 0;background-color: rgba(255,255,255,0.8);box-shadow: 0 5px 10px #ddd;border:none; z-index: 999999}
+
+section{min-height:800px;padding:100px 0}
+
+footer{padding:50px 0;background-color: #FF5D5F;height: 400px; width: 100%}
+
+nav .menu a{text-decoration: none;color:#FF5D5F;font-weight:800;padding:10px 40px;font-size:20px }
+
+nav .menu a:hover{border-bottom: 3px solid rgba(250,118,114,1.00)}
+
+.btn-primary{background-color:#FFFFFF; padding: 10px 20px; text-decoration: none;font-weight: bold;color:#FA8072;font-size: 20px; border-radius: 20px;}
+#aboutus{
+	background-image:url("../images/banner.png");
+	background-repeat: no-repeat;
+	background-position: center;
+padding: 200px;}
+
+
+
+.box-slider
+{border-radius: 10px;overflow: hidden;}
+
+.box-slider img 
+{opacity: 1;transition: all 0.4s linear;transform: scale(1);}
+.box-slider:hover img 
+{opacity: 0.4;transform: scale(1.2);}
+.slider_picture
+{width: 100%;position: relative;overflow: hidden;}
+
+.slider_content
+{width: 100%;padding: 5px 10px;}
+
+.label
+{width: 30%;
+height: 40px;
+background-color:salmon;
+position: absolute;
+left: 132px;
+top: 100px;
+text-align-last: center;
+padding: 8px 0px 0px 0px;
+border-radius: 8px;
+opacity: 0;
+text-align: center;
+text-decoration: none;}
+
+.slider_picture .label 
+{opacity: 0;transition: all 0.4s linear;top: 150px;}
+.slider_picture:hover .label 
+{opacity: 1;top: 100px;}
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+.cardbody{
+height: 200px;
+	weight: 500px;
+	background-color: white;
+	margin: 0}
